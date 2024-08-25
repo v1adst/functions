@@ -9,7 +9,7 @@ function checkWinner(avgDolphins, avgKoalas) {
     console.log(`Delfinii au cîștigat!\n| D - ${avgDolphins} puncte | K - ${avgKoalas} puncte |`);
   } 
   else if (avgKoalas >= avgDolphins * 2) {
-    console.log(`Koalas au cîștigat!\nK - ${avgKoalas}puncte | K - ${avgDolphins}puncte`);
+    console.log(`Koalas au cîștigat!\n| K - ${avgKoalas}puncte | K - ${avgDolphins}puncte |`);
   } 
   else {
     console.warn('Nicio echipă nu a cîștigat.');
